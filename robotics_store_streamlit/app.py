@@ -25,7 +25,7 @@ if 'show_order_success' not in st.session_state:
 
 # Page configuration
 st.set_page_config(
-    page_title="Robotics Store",
+    page_title="Whizrobotics Store",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -415,7 +415,7 @@ class RoboticsStore:
             if st.session_state.user:
                 st.markdown(f"<div style='animation: fadeIn 0.8s;'><h2>👋 Welcome, {st.session_state.user['name']}!</h2></div>", unsafe_allow_html=True)
             else:
-                st.markdown("<div style='animation: fadeIn 0.8s;'><h2>🤖 Robotics Store</h2></div>", unsafe_allow_html=True)
+                st.markdown("<div style='animation: fadeIn 0.8s;'><h2>🤖 Whizrobotics Store</h2></div>", unsafe_allow_html=True)
             
             st.divider()
             
@@ -453,7 +453,7 @@ class RoboticsStore:
     
     def login_page(self):
         """User login/signup page"""
-        st.markdown('<div class="main-header">🤖 Robotics Store</div>', unsafe_allow_html=True)
+        st.markdown('<div class="main-header">🤖 Whizrobotics Store</div>', unsafe_allow_html=True)
         
         col1, col2 = st.columns(2)
         
@@ -515,7 +515,7 @@ class RoboticsStore:
     
     def home_page(self):
         """Home page with categories and featured products"""
-        st.markdown('<div class="main-header">🤖 Robotics Store</div>', unsafe_allow_html=True)
+        st.markdown('<div class="main-header">🤖 Whizrobotics Store</div>', unsafe_allow_html=True)
         
         # Hero section
         st.markdown("""
