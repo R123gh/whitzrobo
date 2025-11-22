@@ -1,0 +1,182 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Arduino Uno R3",
+      "category": "Development Boards",
+      "price": 450,
+      "description": "Microcontroller board with ATmega328P - perfect for beginners and advanced users alike.",
+      "image": "images/arduino-uno.jpg",
+      "stock": 25,
+      "rating": 4.5,
+      "features": [
+        "ATmega328P",
+        "14 Digital I/O",
+        "6 Analog Inputs",
+        "USB Connection"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ultrasonic Sensor",
+      "category": "Sensors",
+      "price": 120,
+      "description": "HC-SR04 distance measurement sensor with high accuracy and stable performance.",
+      "image": "images/sensor-ultrasonic.jpg",
+      "stock": 50,
+      "rating": 4.3,
+      "features": [
+        "5V Operation",
+        "2cm-450cm Range",
+        "High Accuracy",
+        "Easy to Use"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "DC Gear Motor",
+      "category": "Motors",
+      "price": 280,
+      "description": "300 RPM high torque motor perfect for robotics and automation projects.",
+      "image": "images/motor-dc.jpg",
+      "stock": 30,
+      "rating": 4.4,
+      "features": [
+        "300 RPM",
+        "3-12V Operation",
+        "High Torque",
+        "Long Lifespan"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Robot Wheels Set",
+      "category": "Wheels",
+      "price": 180,
+      "description": "Set of 4 premium wheels for robotics with excellent grip and durability.",
+      "image": "images/wheels.jpg",
+      "stock": 40,
+      "rating": 4.2,
+      "features": [
+        "65mm Diameter",
+        "Set of 4",
+        "Rubber Tires",
+        "Smooth Movement"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Camera Module",
+      "category": "Cameras",
+      "price": 850,
+      "description": "5MP high-quality Raspberry Pi camera module with 1080p video recording.",
+      "image": "images/camera-module.jpg",
+      "stock": 15,
+      "rating": 4.6,
+      "features": [
+        "5MP",
+        "1080p Video",
+        "Raspberry Pi Compatible",
+        "Easy Setup"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Li-ion Battery",
+      "category": "Batteries",
+      "price": 220,
+      "description": "18650 2600mAh high-capacity rechargeable battery with protection circuit.",
+      "image": "images/battery-liion.jpg",
+      "stock": 60,
+      "rating": 4.1,
+      "features": [
+        "2600mAh",
+        "3.7V",
+        "Rechargeable",
+        "Long Cycle Life"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Jumper Wires",
+      "category": "Wires & Components",
+      "price": 150,
+      "description": "Premium set of 120pcs jumper wires in multiple types and lengths.",
+      "image": "images/wires-jumper.jpg",
+      "stock": 75,
+      "rating": 4.7,
+      "features": [
+        "120pcs Set",
+        "Multiple Types",
+        "Different Lengths",
+        "High Quality"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Robotics Starter Kit",
+      "category": "Project Kits",
+      "price": 2500,
+      "description": "Complete robotics starter kit with everything you need to begin your robotics journey.",
+      "image": "images/project-kit.jpg",
+      "stock": 10,
+      "rating": 4.8,
+      "features": [
+        "Complete Kit",
+        "Arduino Included",
+        "Step-by-step Guide",
+        "20+ Projects"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Development Boards",
+      "icon": "\ud83d\udcbb",
+      "color": "#FF6B6B"
+    },
+    {
+      "id": 2,
+      "name": "Sensors",
+      "icon": "\ud83d\udce1",
+      "color": "#4ECDC4"
+    },
+    {
+      "id": 3,
+      "name": "Motors",
+      "icon": "\u2699\ufe0f",
+      "color": "#45B7D1"
+    },
+    {
+      "id": 4,
+      "name": "Wheels",
+      "icon": "\ud83d\udede",
+      "color": "#96CEB4"
+    },
+    {
+      "id": 5,
+      "name": "Cameras",
+      "icon": "\ud83d\udcf7",
+      "color": "#FFEAA7"
+    },
+    {
+      "id": 6,
+      "name": "Batteries",
+      "icon": "\ud83d\udd0b",
+      "color": "#DDA0DD"
+    },
+    {
+      "id": 7,
+      "name": "Wires & Components",
+      "icon": "\ud83d\udd0c",
+      "color": "#98D8C8"
+    },
+    {
+      "id": 8,
+      "name": "Project Kits",
+      "icon": "\ud83e\udde9",
+      "color": "#F7DC6F"
+    }
+  ]
+}
