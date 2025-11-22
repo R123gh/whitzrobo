@@ -421,11 +421,11 @@ class RoboticsStore:
             
             # Navigation buttons
             pages = [
-                ("🏠 Home", "Home"),
-                ("📦 Products", "Products"), 
-                ("🛒 Cart", "Cart"),
-                ("📋 Orders", "Orders"),
-                ("📊 Analytics", "Analytics")
+                ("🏠 ", "Home"),
+                ("📦 ", "Products"), 
+                ("🛒 ", "Cart"),
+                ("📋", "Orders"),
+                ("📊 ", "Analytics")
             ]
             
             for icon, page in pages:
